@@ -1,0 +1,81 @@
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+$color-grey-dark: #777;
+$color-white: #fffff99f;
+$color-black: black;
+$color-black-1: #000033;
+$color-white-2: #fff45666;
+$color-red-dark: #A52A2A;
+$color-white-3: #DCDCDC;
+$color-red-salmon: #FA8072;
+$color-red-2: #FF7F50;
+$color-yellow-1: #DAA520;
+
+body{
+    background-color: #28b485;
+    color: $color-black-1;
+}
+
+h1{
+    text-align: center;
+}
+
+.remove {
+    background-color: $color-red-salmon;
+}
+
+.notes {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.note {
+    background-color: #28b485;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    background-color: #28b485;
+    border: 2px solid #fffff99f;
+    border-radius: 20px;
+    
+}
+
+input, button {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: #28b485;
+    background-color: #fffff99f;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: #fffff99f;
+    cursor: pointer;
+    transition: 800ms;
+}
+
+input, button::after {
+    transition: 800ms;
+}
+
+button {
+    background-color: #28b485;
+    border: 2px solid #fffff99f;
+    transition: 800ms;
+}
+
+button, input:focus {
+    outline: none;
+}

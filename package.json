@@ -1,0 +1,16 @@
+{
+  "name": "project-0-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss app.css -w"
+  },
+  "author": "Mohib Arsala",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^5.0.0",
+    "zeppelin-solidity": "^1.12.0"
+  }
+}

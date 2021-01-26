@@ -1,0 +1,52 @@
+body {
+  background-color: #28b485;
+  color: #000033; }
+
+h1 {
+  text-align: center; }
+
+.remove {
+  background-color: #FA8072; }
+
+.notes {
+  margin: 0 auto;
+  width: 75%; }
+
+.note {
+  background-color: #28b485;
+  padding: 8px;
+  border-radius: 8px; }
+
+form {
+  text-align: center; }
+
+input {
+  width: 50%;
+  background-color: #28b485;
+  border: 2px solid #fffff99f;
+  border-radius: 20px; }
+
+input, button {
+  padding: 10px;
+  border-radius: 20px; }
+
+button:hover {
+  color: #28b485;
+  background-color: #fffff99f;
+  cursor: pointer; }
+
+input:hover {
+  background-color: #fffff99f;
+  cursor: pointer;
+  transition: 800ms; }
+
+input, button::after {
+  transition: 800ms; }
+
+button {
+  background-color: #28b485;
+  border: 2px solid #fffff99f;
+  transition: 800ms; }
+
+button, input:focus {
+  outline: none; }
