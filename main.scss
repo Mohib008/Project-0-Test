@@ -37,6 +37,21 @@ h1{
 
 }
 
+.note, .preview {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.preview {
+    background: #A52A2A;
+    border: 8px solid $color-white-3;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
 form {
     text-align: center;
 }

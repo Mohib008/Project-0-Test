@@ -17,6 +17,18 @@ h1 {
   padding: 8px;
   border-radius: 8px; }
 
+.note, .preview {
+  border-radius: 8px;
+  padding: 10px; }
+
+.preview {
+  background: #A52A2A;
+  border: 8px solid #DCDCDC;
+  box-sizing: border-box; }
+
+.hide {
+  display: none; }
+
 form {
   text-align: center; }
 
