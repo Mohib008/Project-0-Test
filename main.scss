@@ -12,13 +12,42 @@ $color-red-salmon: #FA8072;
 $color-red-2: #FF7F50;
 $color-yellow-1: #DAA520;
 
-body{
+*{
     background-color: #28b485;
     color: $color-black-1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
+.section-0 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+}
+
+a {
+    text-transform: none;
+    opacity: 0.75;
+}
+a:hover {
+    opacity: 1;
+}
+
+nav {
+        display: flex;
+        margin-right: -15px;
+        list-style: none;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+.h-1 {
     text-align: center;
+    padding: 10rem 0 5rem 0;
 }
 
 .remove {
