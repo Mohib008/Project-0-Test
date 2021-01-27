@@ -1,15 +1,15 @@
 * {
-  background-color: #28b485;
-  color: #000033;
+  background-color: #777;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
 .section-0 {
+  background-color: #777;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 100px 0;
+  padding: 0.4rem 3rem;
   animation: 1s fadein 0.5s forwards;
   opacity: 0; }
 
@@ -33,13 +33,13 @@ header nav li {
   margin: 0 15px; }
 
 .section-1 {
-  background-color: #DCDCDC;
+  background-color: #777;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
   text-align: center;
-  padding: 5px 5px 5px 5px; }
+  padding: 1rem 1rem 0 1rem; }
 
 .grid {
   display: grid;
@@ -51,13 +51,25 @@ header nav li {
     background-color: #fffff99f; }
   .grid--box-2 {
     background-color: #fffff99f; }
+  .grid--box3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: -1;
+    background-color: #80a3db; }
 
 .section-2 {
+  background-color: #777;
   display: flex;
-  justify-content: space-between;
-  flex-direction: column; }
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  padding: 1rem 1rem; }
 
 .h-1 {
+  background-color: #28b485;
   text-align: center;
   padding: 10rem 0 5rem 0; }
 
@@ -65,8 +77,10 @@ header nav li {
   background-color: #FA8072; }
 
 .notes {
+  background-color: #28b485;
   margin: 0 auto;
-  width: 75%; }
+  width: 100%;
+  padding-bottom: 4rem; }
 
 .note {
   background-color: #28b485;
@@ -86,13 +100,15 @@ header nav li {
   display: none; }
 
 form {
-  text-align: center; }
+  text-align: center;
+  background-color: #28b485; }
 
 input {
   width: 50%;
   background-color: #28b485;
   border: 2px solid #fffff99f;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-bottom: 4rem; }
 
 input, button {
   padding: 10px;

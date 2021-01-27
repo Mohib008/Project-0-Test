@@ -11,20 +11,21 @@ $color-white-3: #DCDCDC;
 $color-red-salmon: #FA8072;
 $color-red-2: #FF7F50;
 $color-yellow-1: #DAA520;
+$color-black-2: rgba(0, 0, 0, 0.8);
 
 *{
-    background-color: $color-primary-dark;
-    color: $color-black-1;
+    background-color: $color-grey-dark;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .section-0 {
+    background-color: $color-grey-dark;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 100px 0;
+    padding: 0.4rem 3rem;
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
 }
@@ -44,9 +45,9 @@ a:hover {
 }
 
 nav {
-        display: flex;
-        margin-right: -15px;
-        list-style: none;
+    display: flex;
+    margin-right: -15px;
+    list-style: none;
 }
 
 header nav li {
@@ -54,13 +55,13 @@ header nav li {
 }
 
 .section-1 {
-    background-color: $color-white-3;
+    background-color: $color-grey-dark;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
     text-align: center;
-    padding: 5px 5px 5px 5px;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .grid {
@@ -77,17 +78,30 @@ header nav li {
     &--box-2 {
         background-color: $color-white
         }
+
+    &--box3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        z-index: -1;
+        background-color: #80a3db;
+        }
     }
 
 
 .section-2 {
+    background-color: $color-grey-dark;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-    
+    position: relative;
+    text-align: center;
+    padding: 1rem 1rem;
 }
     
 .h-1 {
+    background-color: $color-primary-dark;
     text-align: center;
     padding: 10rem 0 5rem 0;
 }
@@ -97,8 +111,10 @@ header nav li {
 }
 
 .notes {
+    background-color: $color-primary-dark;
     margin: 0 auto;
-    width: 75%;
+    width: 100%;
+    padding-bottom: 4rem;
 }
 
 .note {
@@ -125,13 +141,15 @@ header nav li {
 
 form {
     text-align: center;
+    background-color: $color-primary-dark;
 }
 
 input {
     width: 50%;
-    background-color: #28b485;
+    background-color: $color-primary-dark;
     border: 2px solid #fffff99f;
     border-radius: 20px;
+    margin-bottom: 4rem;
     
 }
 
