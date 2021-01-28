@@ -2,6 +2,7 @@ $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 $color-grey-dark: #777;
+$color-white-0: #fff;
 $color-white: #fffff99f;
 $color-black: black;
 $color-black-1: #000033;
@@ -14,34 +15,18 @@ $color-yellow-1: #DAA520;
 $color-black-2: rgba(0, 0, 0, 0.8);
 
 *{
-    background-color: $color-grey-dark;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .section-0 {
-    background-color: $color-grey-dark;
+    background-color: $color-black-2;
+    color: $color-white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.4rem 3rem;
-    animation: 1s fadein 0.5s forwards;
-    opacity: 0;
-}
-
-@keyframes fadein {
-    100% {
-        opacity: 1;
-    }
-}
-
-a {
-    text-transform: none;
-    opacity: 0.75;
-}
-a:hover {
-    opacity: 1;
 }
 
 nav {
@@ -54,14 +39,32 @@ header nav li {
     margin: 0 15px;
 }
 
+header nav li::after {
+    transition: 1000ms;
+}
+
+.nav--h1:hover {
+    color: $color-white-0;
+    transition: 1000ms;
+}
+
+.nav--h1::after {
+    transition: 1000ms;
+}
+
+header nav li:hover {
+    color: $color-white-0;
+    transition: 1000ms;
+}
+
 .section-1 {
-    background-color: $color-grey-dark;
+    background-color: $color-white-0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
     text-align: center;
-    padding: 1rem 1rem 0 1rem;
+    padding-top: 0.5rem;
 }
 
 .grid {
@@ -91,13 +94,13 @@ header nav li {
 
 
 .section-2 {
-    background-color: $color-grey-dark;
+    background-color: $color-white-0;
     display: flex;
     justify-content: center;
     flex-direction: column;
     position: relative;
     text-align: center;
-    padding: 1rem 1rem;
+    padding-top: 0.5rem;
 }
     
 .h-1 {
