@@ -19,14 +19,11 @@ nav {
 header nav li {
   margin: 0 15px; }
 
-header nav li::after {
-  transition: 1000ms; }
-
 .nav--h1:hover {
   color: #fff;
   transition: 1000ms; }
 
-.nav--h1::after {
+.nav--h1, .nav--item::after {
   transition: 1000ms; }
 
 header nav li:hover {
@@ -126,7 +123,8 @@ input:hover {
   transition: 800ms; }
 
 input, button::after {
-  transition: 800ms; }
+  transition: 800ms;
+  color: #28b485; }
 
 button {
   background-color: #28b485;

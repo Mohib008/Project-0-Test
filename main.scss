@@ -39,16 +39,12 @@ header nav li {
     margin: 0 15px;
 }
 
-header nav li::after {
-    transition: 1000ms;
-}
-
 .nav--h1:hover {
     color: $color-white-0;
     transition: 1000ms;
 }
 
-.nav--h1::after {
+.nav--h1, .nav--item::after {
     transition: 1000ms;
 }
 
@@ -175,6 +171,7 @@ input:hover {
 
 input, button::after {
     transition: 800ms;
+    color: $color-primary-dark;
 }
 
 button {
