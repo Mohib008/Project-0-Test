@@ -44,7 +44,7 @@ header nav li {
     transition: 1000ms;
 }
 
-.nav--h1, .nav--item::after {
+.nav--h1, .nav--item, nav li::after {
     transition: 1000ms;
 }
 
@@ -182,4 +182,28 @@ button {
 
 button, input:focus {
     outline: none;
+}
+
+.section-3 {
+    background-color: $color-white-3;
+    &--grid {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+
+    &--small, &--large {
+        flex-basis: 30%;
+        height: 30rem;
+        padding: 2rem;
+        background-clip: content-box;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &--large {
+        flex-basis: 70%;
+    }
 }
