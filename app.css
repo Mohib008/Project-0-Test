@@ -64,6 +64,14 @@ header nav li:hover {
     grid-column: 2/1;
     margin-left: 15rem;
     margin-bottom: 4rem; }
+  .grid--h2 {
+    margin-top: 0.8rem; }
+  .grid--p {
+    padding-bottom: 0.9rem; }
+  .grid--img {
+    margin-bottom: 0.6rem; }
+  .grid--img-0 {
+    margin: 4rem 4rem 12rem 4rem; }
 
 .section-2 {
   background-color: #fff;
