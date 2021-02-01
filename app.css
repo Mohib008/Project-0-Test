@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* ==================================== Section-0 ====================================*/
 .section-0 {
   background-color: rgba(0, 0, 0, 0.8);
   color: #fffff99f;
@@ -30,6 +31,7 @@ header nav li:hover {
   color: #fff;
   transition: 1000ms; }
 
+/* =============================== Section-1 ===================================*/
 .section-1 {
   background-color: #fff;
   display: flex;
@@ -73,6 +75,7 @@ header nav li:hover {
   .grid--img-0 {
     margin: 4rem 4rem 12rem 4rem; }
 
+/* =================================== Section-2 =================================*/
 .section-2 {
   background-color: #fff;
   display: flex;
@@ -150,6 +153,7 @@ button {
 button, input:focus {
   outline: none; }
 
+/* ==================================== Section-3 ==================================*/
 .section-3 {
   background-color: #DCDCDC; }
   .section-3--grid {
@@ -184,7 +188,8 @@ button, input:focus {
     text-transform: capitalize;
     font: bold 3rem "Open sans", sans-serif;
     text-align: center;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    padding-top: 5rem; }
   .section-3--h4 {
     text-transform: capitalize;
     font: bold 1.5rem "Open sans", sans-serif;
@@ -201,3 +206,19 @@ button, input:focus {
     border: 0;
     background-color: #28b485;
     margin: 5rem 5rem 5rem 5rem; }
+
+/* ================================ Section-4 ================================*/
+.section-4 {
+  background-color: #DCDCDC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: normal; }
+  .section-4--ul {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; }
+  .section-4--li {
+    padding: 5rem;
+    flex-basis: 50%;
+    text-align: center; }

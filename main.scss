@@ -20,6 +20,8 @@ $color-black-2: rgba(0, 0, 0, 0.8);
     box-sizing: border-box;
 }
 
+/* ==================================== Section-0 ====================================*/
+
 .section-0 {
     background-color: $color-black-2;
     color: $color-white;
@@ -52,6 +54,8 @@ header nav li:hover {
     color: $color-white-0;
     transition: 1000ms;
 }
+
+/* =============================== Section-1 ===================================*/
 
 .section-1 {
     background-color: $color-white-0;
@@ -110,6 +114,8 @@ header nav li:hover {
       }
     }
 
+
+/* =================================== Section-2 =================================*/
 
 .section-2 {
     background-color: $color-white-0;
@@ -207,6 +213,8 @@ button, input:focus {
 }
 
 
+/* ==================================== Section-3 ==================================*/
+
 .section-3 {
     background-color: $color-white-3;
     &--grid {
@@ -255,6 +263,7 @@ button, input:focus {
         font: bold 3rem "Open sans", sans-serif;
         text-align: center;
         margin-bottom: 2rem;
+        padding-top: 5rem;
     }
 
     &--h4 {
@@ -277,5 +286,29 @@ button, input:focus {
         border: 0;
         background-color: $color-primary-dark;
         margin: 5rem 5rem 5rem 5rem;
+    }
+}
+
+
+/* ================================ Section-4 ================================*/
+
+
+.section-4 {
+    background-color: $color-white-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: normal;
+
+    &--ul {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    &--li {
+        padding: 5rem;
+        flex-basis: 50%;
+        text-align: center;
     }
 }
