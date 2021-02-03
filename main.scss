@@ -312,3 +312,17 @@ button, input:focus {
         text-align: center;
     }
 }
+
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    background-color: $color-white-3;
+    height: 15rem;
+    width: 87rem;
+    text-align: center;
+    &--h1 {
+        padding-top: 2rem;
+    }
+
+}
